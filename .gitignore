@@ -1,0 +1,69 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Virtual environments
+venv/
+env/
+.venv/
+ENV/
+.env/
+
+# Environment variables and secrets
+*.env
+*.env.*
+
+# VS Code settings
+.vscode/
+
+# macOS
+.DS_Store
+
+# Pytest cache
+.pytest_cache/
+
+# MyPy cache
+.mypy_cache/
+
+# Pydantic compiled schemas
+*.pydantic
+
+# Database files
+*.sqlite3
+*.db
+
+# Logs
+*.log
+
+# Alembic migration cache
+alembic/versions/*.pyc
+
+# Coverage reports
+htmlcov/
+.coverage
+.tox/
+.nox/
+
+# Jupyter Notebooks
+.ipynb_checkpoints
+
+# Node modules (if using JS/TS for frontend)
+node_modules/
+
+# Build artifacts
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# FastAPI generated openapi docs cache (if saved)
+openapi.json
+
+# Docker
+*.pid
+*.pid.lock
+docker-compose.override.yml
